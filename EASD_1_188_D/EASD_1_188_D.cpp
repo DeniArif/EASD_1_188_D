@@ -21,4 +21,7 @@ void selectionSort(int arr[88], int n) {
 int main() {
 	int arr[88] = { 64, 25, 12, 22, 11 };
 	int n = sizeof(arr) / sizeof(arr[0]);
+	cout << "Sebelum diurutkan:\n";
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
 }
