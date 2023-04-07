@@ -14,5 +14,10 @@ void selectionSort(int arr[88], int n) {
 		}
 		int temp = arr[j];
 		arr[j] = arr[min_index];
+		arr[min_index] = temp;
 	}
+}
+
+int main() {
+	int arr[88] = {64, 25, 12, 22, 11}
 }
