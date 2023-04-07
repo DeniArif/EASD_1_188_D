@@ -28,4 +28,7 @@ int main() {
 	cout << endl;
 
 	selectionSort(arr, n);
+
+	cout << "Setelah diurutkan:\n";
+	for (int i = 0; i < n; i++) {
 }
